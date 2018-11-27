@@ -10,12 +10,13 @@ setup(
     version='0.0.0',
     license='',
     packages=find_packages(),
-    install_requires=[],
+    install_requires=['click'],
     extras_require={
         'test': ['flake8']
     },
     entry_points={
         'console_scripts': [
+            'flow = wood_demo.main:command'
         ]
     }
 )
