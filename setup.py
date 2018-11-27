@@ -4,7 +4,7 @@ setup(
     name='wood_demo',
     description='Example pipe flow calculation package',
     keywords=['pipe', 'fluid', 'flow'],
-    url='',
+    url='https://github.com/ch3pjw/wood_demo',
     author='Paul Weaver',
     author_email='paul@concertdaw.co.uk',
     version='0.0.0',
